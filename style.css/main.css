@@ -1,0 +1,71 @@
+.thumbnail{
+    width: 100%;
+    cursor: pointer;
+
+    
+}
+.thumbnail-container{
+    position: relative;
+}
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
+    padding-left: 90px;
+    padding-right: 20px;
+   padding-top: 70px;
+   background-color: rgb(250, 250, 250);
+  
+
+    
+}
+
+.video-discription-container{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    margin-top: 8px;
+    
+    
+}
+
+.channel-icon{
+  width: 35px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.video-title{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    cursor: pointer;
+    
+}
+
+.video-stats{
+    font-size: 12px;
+    margin-top: 3px;
+    color: rgb(143, 138, 138);
+}
+.author-name{
+    font-size: 12px;
+    margin-top: 10px;
+    color: rgb(143, 138, 138);
+    cursor: pointer;
+}
+.video-time{
+    background-color: black;
+    position: absolute;
+    color: white;
+    right: 6px;
+    bottom: 10px;
+    font-size: 12px;
+    font-family: robotp, Arial;
+    border-radius: 2px;
+    font-weight: 700;
+    padding: 4px 3px;
+
+}
